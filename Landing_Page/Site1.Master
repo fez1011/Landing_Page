@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Landing_Page.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="stylesheet.css" rel="stylesheet" />
+        <link href="nav.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 61px;
+            width: 68px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <ul>
+        <li class="nav image">  <img src="imgs/preview.png"class="auto-style1" alt="SolarSolutions Logo" /></li>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="services.asp">Services</a></li>
+        <li><a href="products.asp">Products</a></li>
+        <li><a href="about.asp">About Us</a></li>
+        <li><a href="contact.asp">Contact Us</a></li>
+    </ul>
+</div>
+
+
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

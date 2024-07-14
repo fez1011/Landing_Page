@@ -1,0 +1,7 @@
+﻿.solar-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust this value to make images smaller or larger */
+    max-height: 200px; /* Adjust this value to make images smaller or larger */
+    object-fit: cover;
+}
